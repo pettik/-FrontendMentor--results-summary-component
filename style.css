@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+:root{
+/* Primary */
+--light-red: hsl(0, 100%, 67%);
+--orangey-yellow: hsl(39, 100%, 56%);
+--green-teal: hsl(166, 100%, 37%);
+--cobalt-blue: hsl(234, 85%, 45%);
+/* Gradients */
+--light-slate-blue: hsl(252, 100%, 67%);
+--light-royal-blue: hsl(241, 81%, 54%);
+--violet-blue: hsla(256, 72%, 46%, 1);
+--persian-blue: hsla(241, 72%, 46%, 0);
+
+/* Neutral */
+--white: hsl(0, 0%, 100%);
+--pale-blue: hsl(221, 100%, 96%);
+--light-lavender: hsl(241, 100%, 89%);
+--dark-gray-blue: hsl(224, 30%, 27%);
+}
+
+*,
+*::before,
+*::after{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+
+
+body{
+  font-size: 18px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+  
+  font-size: 18px;
+  font-family: 'Hanken Grotesk',sans-serif;
+  
+  position:relative;
+}
+
+.sablona-desktop{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  opacity: .4;
+  z-index:-2;
+}
+
+.container{
+  display:flex;
+  border: 2px solid #ccc;
+  height:510px;
+  width:735px;
+  border-radius: 2rem;
+}
+
+.container > *{
+  flex:1;
+  padding:2.1rem;
+}
+
+/* ******************************** */
+/* BLUE PART */
+.blue-part{
+  opacity:.4;
+ text-align: center;
+ color: #fff;
+  background: linear-gradient(to top, var(--cobalt-blue),var(--light-slate-blue) );
+  border-radius: 2rem;
+}
+
+.result-part{
+   display: flex;
+ flex-direction:column;
+  align-items:center;
+  padding-right:.25rem;
+}
+
+.result-part h2{
+  padding-top:.2rem;
+  font-size:1.5rem;
+  margin-bottom:2.25rem;
+}
+
+.rating{
+  background: linear-gradient(to bottom, var(--violet-blue),var(--persian-blue));
+  width:200px;
+  height:200px;
+  border-radius: 50%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  text-align: center;
+  margin-bottom:1.75rem;
+}
+
+.rating p span{
+  display:block;
+  font-size: 70px;
+  padding-bottom:0;
+}
+
+h1{
+  font-size:1.85rem;
+  margin-bottom:.85rem;
+}
+
+.rating-description{
+  padding: 0 1.5rem;
+}
+
+
+
+/* ******************************** */
+/* SUMMARY PART */
+.summary-part{
+/*   padding-left:2.75rem; */
+}
+
+.summary-part h2{
+  padding-top:.2rem;
+  font-size:1.5rem;
+  margin-bottom:2rem;
+}
+
+.box{
+  width:100%;
+  display:flex;
+  border: 2px solid red;
+}
+
+
+
+
+.attribution {
+  display:none;
+}
