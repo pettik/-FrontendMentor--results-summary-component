@@ -1,47 +1,50 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+<img class="sablona-desktop" src="https://raw.githubusercontent.com/pettik/FrontendMentor--results-summary-component/main/template-image.png" alt="sablona desktop"> 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Results summary component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  Your Result
-  76
-  of 100
-
-  Great
-  You scored higher than 65% of the people who have taken these tests.
-  
-  Summary
-
-  Reaction
-  80 / 100
-
-  Memory
-  92 / 100
-
-  Verbal
-  61 / 100
-
-  Visual
-  72 / 100
-
-  Continue
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+<div class="container">
+  <div class="blue-part">
+    <div class="result-part">
+      <h2>Your Result</h2>
+      <div class="rating">
+        <p><span>76</span>
+        of 100</p>
+      </div>
+      <h1>Great</h1>
+      <p class="rating-description">
+        You scored higher than 65% of the people who have taken these tests.
+      </p>
+    </div>
   </div>
-</body>
-</html>
+  <div class="summary-part">
+    <h2>Summary</h2>
+      <div class="boxes">
+        <div class="box red">
+        <img src="https://raw.githubusercontent.com/pettik/FrontendMentor--results-summary-component/733b029986defbe7019408fa57f90d22a38ee922/assets/images/icon-reaction.svg" alt="reaction icon image">
+          <p>Reaction</p>
+          <p class="rate"><span>80 </span> / 100</p>
+        </div>
+         <div class="box yellow">
+        <img src="https://raw.githubusercontent.com/pettik/FrontendMentor--results-summary-component/733b029986defbe7019408fa57f90d22a38ee922/assets/images/icon-memory.svg" alt="reaction icon image">
+          <p>Memory</p>
+          <p class="rate"><span>92 </span> / 100</p>
+        </div>
+        <div class="box green">
+        <img src="https://raw.githubusercontent.com/pettik/FrontendMentor--results-summary-component/733b029986defbe7019408fa57f90d22a38ee922/assets/images/icon-verbal.svg" alt="verbal icon image">
+          <p>Verbal</p>
+          <p class="rate"><span>61 </span> / 100</p>
+        </div>
+        <div class="box blue">
+        <img src="https://raw.githubusercontent.com/pettik/FrontendMentor--results-summary-component/733b029986defbe7019408fa57f90d22a38ee922/assets/images/icon-visual.svg" alt="verbal icon image">
+          <p>Visual</p>
+          <p class="rate"><span>72 </span> / 100</p>
+        </div>
+        
+      </div>
+    <button class="btn">Continue</button>
+  </div>
+</div>
+
+
+<div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/pettik/">Petr Bednarski</a>.
+  </div>
