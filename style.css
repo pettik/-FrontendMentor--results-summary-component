@@ -2,10 +2,10 @@
 
 :root{
 /* Primary */
---light-red: hsl(0, 100%, 67%);
---orangey-yellow: hsl(39, 100%, 56%);
---green-teal: hsl(166, 100%, 37%);
---cobalt-blue: hsl(234, 85%, 45%);
+--light-red: hsla(0, 100%, 67%,.2);
+--orangey-yellow: hsla(39, 100%, 56%,.2);
+--green-teal: hsla(166, 100%, 37%,.2);
+--cobalt-blue: hsla(234, 85%, 45%,.2);
 /* Gradients */
 --light-slate-blue: hsl(252, 100%, 67%);
 --light-royal-blue: hsl(241, 81%, 54%);
@@ -61,16 +61,15 @@ body{
 
 .container > *{
   flex:1;
-  padding:2.1rem;
+  padding: 2.1rem 2.4rem;
 }
 
 /* ******************************** */
 /* BLUE PART */
 .blue-part{
-  opacity:.4;
  text-align: center;
  color: #fff;
-  background: linear-gradient(to top, var(--cobalt-blue),var(--light-slate-blue) );
+  background: linear-gradient(to top, var(--light-royal-blue),var(--light-slate-blue) );
   border-radius: 2rem;
 }
 
@@ -85,6 +84,7 @@ body{
   padding-top:.2rem;
   font-size:1.5rem;
   margin-bottom:2.25rem;
+  color:#cfc6ff;
 }
 
 .rating{
@@ -97,46 +97,102 @@ body{
   align-items: center;
   text-align: center;
   margin-bottom:1.75rem;
+  color:#8b7dff;
 }
 
 .rating p span{
   display:block;
   font-size: 70px;
   padding-bottom:0;
+  color:#fff;
 }
 
 h1{
   font-size:1.85rem;
   margin-bottom:.85rem;
+  color:#fff;
 }
 
 .rating-description{
-  padding: 0 1.5rem;
+  padding: 0 1rem;
+  color: #b8b5ff;
 }
 
 
 
 /* ******************************** */
 /* SUMMARY PART */
-.summary-part{
-/*   padding-left:2.75rem; */
-}
 
 .summary-part h2{
   padding-top:.2rem;
   font-size:1.5rem;
-  margin-bottom:2rem;
+  margin-bottom:1.7rem;
+}
+
+.boxes{
+  margin-bottom:2.8rem;
 }
 
 .box{
   width:100%;
   display:flex;
-  border: 2px solid red;
+  align-items:center;
+  padding:.9rem;
+  margin-bottom:1.3rem;
+  column-gap: .75rem;
+  border-radius: .7rem;
+}
+
+.red{
+  background: var(--light-red);
+  color: #ca6b6d;
+}
+
+.yellow{
+  background: var(--orangey-yellow);
+  color: #eec565;
+}
+
+.green{
+  background: var(--green-teal);
+  color: #38a58c;
+}
+
+.blue{
+  background: var(--cobalt-blue);
+  color: #2f3884;
 }
 
 
+.box .rate{
+  margin-left: auto;
+  color: #8e8fa0;
+}
+
+.box .rate span{
+  margin-right:.3rem;
+  color: #3a4350;
+}
 
 
+.btn{
+  width: 100%;
+  outline:none;
+  border:none;
+  color: #fff;
+  padding: 1rem;
+  text-align:center;
+  background: #303b59;
+  border-radius: 2rem;
+  font-size:1.1rem;
+  font-weight: 500;
+  cursor:pointer;
+  letter-spacing: .2px;
+}
+
+
+/* ******************************** */
+/* attribution */
 .attribution {
   display:none;
 }
