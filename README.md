@@ -16,4 +16,3 @@ MY challenge was to build out this results summary component and get it looking 
 
 I can use any tools I like to help me complete the challenge. So if I've got something I'd like to practice, I can feel free to give it a go.
 
-We provide the data for the results in a local `data.json` file. So you can use that to add the results and total score dynamically if you choose.
