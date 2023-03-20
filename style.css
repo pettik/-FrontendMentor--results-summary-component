@@ -210,10 +210,11 @@ h1 {
 @media screen and (max-width: 768px) {
   .container {
     flex-direction: column;
-    border: 2px solid #ccc;
+
     height: 809px;
     width: 375px;
     border-radius: 0;
+    box-shadow: 10px 20px 60px #e9edf9;
   }
 
   .result-part h2 {
