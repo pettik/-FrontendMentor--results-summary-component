@@ -16,7 +16,7 @@ MY challenge was to build out this results summary component and get it looking 
 
 I can use any tools I like to help me complete the challenge. So if I've got something I'd like to practice, I can feel free to give it a go.
 
-## LIVE SITE:➡️https://pettik-results-summary-component.netlify.app/⬅️
+## LIVE SITE:➡️ https://pettik-results-summary-component.netlify.app/ ⬅️
 
 # DESKTOP version 🖥️ ⬇⬇⬇
 <img src="desktop-preview.png">
